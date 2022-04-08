@@ -24,12 +24,13 @@ public class Ej02 : MonoBehaviour
 		if (montoDisponible < sumaProductos)
 		{
 			faltaDinero = sumaProductos - montoDisponible;
-			Debug.Log("La suma de los productos superan al monto disponible. " + "Se necesitan $" + faltaDinero + "más");
+			Debug.Log("La suma de los productos superan al monto disponible. " + "Se necesitan $" + faltaDinero + " más");
 		}
 		else if (montoDisponible > sumaProductos)
 		{
 			sobraDinero = montoDisponible - sumaProductos;
 			Debug.Log("La suma de los productos no supera al monto disponible. " + "Sobran $" + sobraDinero);
+
 		}
 		else
 		{
